@@ -44,7 +44,7 @@ create table ServiceImportance(
 );
 create table ImportanceSeverityTable(
     ImportanceSeverityID int not null auto_increment,
-    SeverityImportanceID int,
+    SevericeImportanceID int,
     ImportanceSeverityDowntimeHrs float,
     ContactMethodID int,
     PRIMARY KEY (ImportanceSeverityID)
